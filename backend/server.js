@@ -3,7 +3,7 @@ import { connectDB } from "./config/db.js";
 
 const app = express();
 
-app.get("/products", (req, res) => {
+app.post("/products", (req, res) => {
   res.send("Server is ready!!!");
 });
 
